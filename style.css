@@ -1,6 +1,6 @@
 body{
     font-family: Tahoma;
-    color: #444;
+    color: rgb(243, 243, 243);
     letter-spacing: 1px;
 }
 
@@ -9,6 +9,7 @@ h1, h2{
 }
 
 #wrapper{
+    background-image: linear-gradient(rgb(193, 207, 197), rgb(66, 45, 45));
     width: 90%;
     max-width: 960px;
     height: 560px;
@@ -22,6 +23,7 @@ h1, h2{
 #page-banner{
     display: flex;
     justify-content: space-between;
+    color: black;
 }
 
 .Img img{
@@ -45,4 +47,47 @@ h1, h2{
     padding: 20px;
     border-left:5px solid #ddd;
     margin: 20px 10px;
+}
+
+#todo-list li:hover{
+    border-color: #8db0b4;
+}
+
+.delete{
+    float: right;
+    background: #a4afb1;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+
+.delete:hover{
+    background-color: aqua;
+    color: black;
+}
+#add-task{
+    display: flex;
+    justify-content: space-between;
+}
+
+#add-task input{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 300px;
+}
+
+#add-task input:focus{
+    outline: none;
+}
+
+#add-task button{
+    cursor: pointer;
+    margin: 20px;
+    padding: 10px 30px;
 }
