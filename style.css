@@ -1,0 +1,48 @@
+body{
+    font-family: Tahoma;
+    color: #444;
+    letter-spacing: 1px;
+}
+
+h1, h2{
+  font-weight: normal;
+}
+
+#wrapper{
+    width: 90%;
+    max-width: 960px;
+    height: 560px;
+    border-radius: 6px;
+    border: 1px solid rgb(163, 200, 201);
+    margin: 20px auto;
+    padding:20px;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+}
+
+#page-banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Img img{
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#page-banner{
+    background: #eee ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#todo-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    padding: 20px;
+    border-left:5px solid #ddd;
+    margin: 20px 10px;
+}
