@@ -2,9 +2,10 @@ body{
     font-family: Tahoma;
     color: rgb(243, 243, 243);
     letter-spacing: 1px;
+    background-color:rgb(193, 207, 197) ;
 }
 
-h1, h2{
+h1{
   font-weight: normal;
 }
 
@@ -63,8 +64,8 @@ h1, h2{
 }
 
 .delete:hover{
-    background-color: aqua;
-    color: black;
+    background-color: rgb(51, 63, 63);
+    color: rgb(226, 214, 214);
 }
 #add-task{
     display: flex;
